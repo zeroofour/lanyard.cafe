@@ -95,6 +95,12 @@ export const MEMBERS: Member[] = [
     buttonUrl: "https://chessie.cat/buttons/chessie-cat.gif",
     discordId: "699600164180066376",
   }
+    {
+    url: "https://fynn.wtf",
+    name: "fynn",
+    buttonUrl: "https://fynn.wtf/88x31/fynnwtf.gif",
+    discordId: "256050613316485120",
+  },
 ];
 
 export function getMemberByUrl(url: string): Member | undefined {
